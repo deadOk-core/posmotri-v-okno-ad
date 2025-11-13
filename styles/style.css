@@ -26,7 +26,6 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,15 +65,12 @@ ol {
 
 /* Основной код */
 
-
-
 .content {
   width: 1140px;
   display: grid;
   grid-template-areas: "result details";
   gap: 30px;
   align-items: end;
-
   padding-bottom: 150px;
 }
 
@@ -102,14 +98,11 @@ ol {
   object-fit: cover;
 }
 
-
-
 .search-form {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: row;
-  /* gap: 40px; */
 }
 
 .search-form__fieldset {
@@ -120,7 +113,6 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
   padding-bottom: 5px;
 }
 
@@ -150,7 +142,6 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
   color: #fff;
   opacity: 0.7;
   border: none;
@@ -202,7 +193,6 @@ ol {
   color: #fff;
   border: 1px solid #fff;
   font-weight: 700;
-  font-style: bold;
   font-size: 18px;
   line-height: 100%;
   text-align: center;
@@ -243,7 +233,6 @@ ol {
   padding-bottom: 26px;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 75px;
   line-height: 94%;
   text-transform: uppercase;
@@ -253,14 +242,9 @@ ol {
   color: #545050;
 }
 
-.content__list {
-
-}
-
 .content__list-container {
   position: relative;
   height: 298px;
-  
   overflow-y: auto;
 }
 
@@ -284,26 +268,21 @@ ol {
 }
 
 .content__video-card {
-  /* height: 103px; */
   display: flex;
   flex-direction: row;
-  /* gap: 30px; */
   justify-content: flex-start;
 }
 
 .content__video-card-title {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  font-style: bold;
   font-size: 30px;
   line-height: 100%;
   text-transform: uppercase;
   /* при переполнении */
   white-space: nowrap;        
   overflow: hidden;           
-  text-overflow: ellipsis;  
-  /* max-width: 100%; */
-  
+  text-overflow: ellipsis;
 }
 
 .content__video-card-description {
